@@ -1,0 +1,99 @@
+/************ 针对修改element-ui默认样式 **************/
+
+button.el-button {
+  padding:0 15px;
+  box-sizing:border-box;
+  min-width:60px;
+  height:28px;
+  font-size: 14px;
+
+  &.el-button--success {
+    background: #4fbe70;
+  }
+
+  &.el-button--success:active {
+    background:rgba(79,190,112,0.8);
+  }
+
+  &.el-button--warning {
+    background:#ff7801;
+  }
+
+  &.el-button--warning:active {
+    background:rgba(255,120,1,0.8);
+  }
+
+  &.el-button--info {
+    background: #2b8de0;
+  }
+
+  &.el-button--info:active{
+    background:rgba(43,141,224,0.8);
+  }
+
+  &.el-button--danger {
+    background: #dc5868;
+  }
+
+  &.el-button--danger:active{
+    background:rgba(220,88,104,0.8);
+  }
+}
+
+/************ 弹窗样式重写 **************/
+.el-dialog__wrapper {
+
+  .el-dialog.el-dialog--small {
+    width: 70%;
+  }
+
+  .el-dialog__close.el-icon-close:before{
+    content:"";
+  }
+}
+
+.el-radio {
+  .el-radio__input {
+    .el-radio__inner{
+      border-color: #ff7801;
+    }
+
+    &.is-checked {
+      .el-radio__inner{
+        background: #ff7801;
+        border-color: #ff7801;
+      }
+    }
+  }
+}
+
+.el-checkbox {
+  .is-checked {
+    .el-checkbox__inner {
+      background: #ff7801;
+      border: none;
+    }
+  }
+  .el-checkbox__inner {
+    border-radius: 50%;
+    transition: none;
+
+    &::after {
+      border: none;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      top: 5px;
+      left: 5px;
+      background: #ffffff;
+    }
+  }
+}
+
+.el-table__fixed-header-wrapper thead div {
+  background: none;
+}
+
+
+
+

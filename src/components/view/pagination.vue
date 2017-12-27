@@ -219,7 +219,7 @@
         }
 
         .el-table .current-row>td {
-            background: #ff780190;
+            background: #ff780120;
         }
 
         .el-pager li.active {

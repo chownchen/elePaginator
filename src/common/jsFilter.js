@@ -1,5 +1,6 @@
 /**
  * Created by zdchen on 2017/7/6 0006.
+ * 可按需添加自定义方法
  */
   //取整数
 function filterNumber(value) {

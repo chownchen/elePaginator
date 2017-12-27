@@ -20,8 +20,8 @@ npm run build --report
 ```
 
 # 备注
-  这只是作为一个初期版本发布，后续会有版本更新
+  版本正在一步步优化，不定期会有版本更新
   demo.vue作为查看分页组件使用demo案例
-  组件名为pagination.vue
+  组件名为 pagination.vue
   可查看代码源码及备注，方便阅读
   如有错误及改进意见，欢迎指出--ichenzhangdong@foxmail.com

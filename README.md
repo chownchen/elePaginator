@@ -1,4 +1,4 @@
-# vue-pro
+#elePagination 分页列表组件
 
 > 这是一个斑马快跑的前端项目demo
   本项目基于element-ui + vue，集成了分页和列表功能
